@@ -1,9 +1,9 @@
 appConfig:
   startingView: minimal
-  theme: lissy
+  theme: callisto
   language: zh-CN
 pageInfo:
-  title: 卓越
+  title: 日新导航
   description: 珍惜生命每一分钟
   navLinks:
     - title: GitHub
@@ -11,49 +11,65 @@ pageInfo:
     - title: Documentation
       path: https://dashy.to/docs
 sections:
-  - name: Getting Started
-    icon: fas fa-rocket
+  - name: 常用
+    icon: fas fa-star
     items:
-      - title: GitHub
-        description: Source Code, Issues and Pull Requests
-        url: https://github.com/lissy93/dashy
+      - title: Google
+        description: 搜索
+        icon: favicon
+        url: https://www.google.com
+        target: newtab
+      - title: Youtube
+        description: 视频平台
+        icon: favicon
+        url: https://www.youtube.com/
+        target: newtab
+      - title: Gemini
+        description: Google AI
+        icon: favicon
+        url: https://gemini.google.com/
+        target: newtab
+      - title: Oracle
+        description: 永久免费vps
+        icon: favicon
+        url: https://www.oracle.com/cn/cloud/free/
+        target: newtab
+      - title: Gmail
+        description: 谷歌邮箱
+        icon: favicon
+        url: https://mail.google.com/
+        target: newtab
+      - title: Github
+        description: 全球最大的交友平台
         icon: si-github
-      - title: Docs
-        description: Configuring & Usage Documentation
-        provider: Dashy.to
-        icon: far fa-book
-        url: https://dashy.to/docs
-      - title: devs.surf域名
+        url: https://github.com/
+        target: newtab
+      - title: CloudFlare
+        description: 互联网基础框架
+        icon: favicon
+        url: https://www.cloudflare.com/
+        target: newtab
+      - title: simpleicons
+        description: 简单图标
+        icon: favicon
+        url: https://simpleicons.org/
+        target: newtab
+  - name: 域名
+    icon: si-namecheap
+    items:
+      - title: DEVSSURF
         description: 免费域名
+        icon: https://devs.surf/assets/images/logo-horizontal.svg
         url: https://devs.surf/
         target: newtab
-  - name: Support Dashy
-    icon: fas fa-heart
-    displayData:
-      itemSize: large
-    widgets:
-      - type: image
-        label: Dashy is made possible thanks to our awesome sponsors
-        options:
-          imagePath: https://readme-contribs.as93.net/sponsors/lissy93?perRow=5&shape=squircle
-    items:
-      - title: Sponsor
-        url: https://github.com/sponsors/lissy93
-        description: >-
-          Sponsor @Lissy93 on GitHub to support with ongoing development of
-          Dashy
-        icon: 🩷
-        color: '#ff78d1'
-        backgroundColor: '#c30c844a'
-  - name: Latest Updates
-    icon: fas fa-code-branch
-    displayData:
-      cols: 1
-      rows: 3
-      cutToHeight: true
-    widgets:
-      - type: rss-feed
-        options:
-          rssUrl: https://github.com/lissy93/dashy/releases.atom
-          limit: 5
+      - title: TECH
+        description: 免费顶级域名
+        icon: favicon
+        url: https://get.tech/
+        target: newtab
+      - title: LOVIE.ME
+        description: 免费域名
+        icon: https://www.lovie.me/_next/image?url=%2Flogo.png&w=32&q=75
+        url: https://www.lovie.me/
+        target: newtab
 pages: []
