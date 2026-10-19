@@ -12,6 +12,7 @@ pageInfo:
 
 # Optional app settings and configuration
 appConfig:
+  language: zh-CN
   theme: colorful
 
 # Main content - An array of sections, each containing an array of items
