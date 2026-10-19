@@ -2,8 +2,8 @@
 ---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: 卓越
+  description: 珍惜生命每一分钟！
   navLinks:
   - title: GitHub
     path: https://github.com/Lissy93/dashy
