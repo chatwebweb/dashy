@@ -7,7 +7,7 @@ pageInfo:
     - title: Documentation
       path: https://dashy.to/docs
 appConfig:
-  language: zh-CN
+  startingView: minimal
   theme: colorful
 sections:
   - name: Getting Started
