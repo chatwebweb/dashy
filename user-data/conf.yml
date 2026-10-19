@@ -1,14 +1,15 @@
+appConfig:
+  startingView: minimal
+  theme: lissy
+  language: zh-CN
 pageInfo:
   title: 卓越
-  description: 珍惜生命每一分钟！
+  description: 珍惜生命每一分钟
   navLinks:
     - title: GitHub
       path: https://github.com/Lissy93/dashy
     - title: Documentation
       path: https://dashy.to/docs
-appConfig:
-  startingView: minimal
-  theme: colorful
 sections:
   - name: Getting Started
     icon: fas fa-rocket
@@ -22,6 +23,10 @@ sections:
         provider: Dashy.to
         icon: far fa-book
         url: https://dashy.to/docs
+      - title: devs.surf域名
+        description: 免费域名
+        url: https://devs.surf/
+        target: newtab
   - name: Support Dashy
     icon: fas fa-heart
     displayData:
@@ -51,3 +56,4 @@ sections:
         options:
           rssUrl: https://github.com/lissy93/dashy/releases.atom
           limit: 5
+pages: []
