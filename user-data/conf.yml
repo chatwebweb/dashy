@@ -1,21 +1,14 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/Lissy93/dashy/master/src/utils/config/ConfigSchema.json
----
-# Page meta info, like heading, footer text and nav links
 pageInfo:
   title: 卓越
   description: 珍惜生命每一分钟！
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+    - title: Documentation
+      path: https://dashy.to/docs
 appConfig:
   language: zh-CN
   theme: colorful
-
-# Main content - An array of sections, each containing an array of items
 sections:
   - name: Getting Started
     icon: fas fa-rocket
@@ -29,7 +22,6 @@ sections:
         provider: Dashy.to
         icon: far fa-book
         url: https://dashy.to/docs
-
   - name: Support Dashy
     icon: fas fa-heart
     displayData:
@@ -42,11 +34,12 @@ sections:
     items:
       - title: Sponsor
         url: https://github.com/sponsors/lissy93
-        description: Sponsor @Lissy93 on GitHub to support with ongoing development of Dashy
+        description: >-
+          Sponsor @Lissy93 on GitHub to support with ongoing development of
+          Dashy
         icon: 🩷
         color: '#ff78d1'
         backgroundColor: '#c30c844a'
-
   - name: Latest Updates
     icon: fas fa-code-branch
     displayData:
