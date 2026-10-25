@@ -72,4 +72,24 @@ sections:
         icon: https://www.lovie.me/_next/image?url=%2Flogo.png&w=32&q=75
         url: https://www.lovie.me/
         target: newtab
+      - title: 9v4.com
+        icon: favicon
+        url: https://store.9v4.com/
+        target: newtab
+      - title: fontawesome
+        icon: favicon
+        url: https://fontawesome.com/icons
+  - name: 服务器
+    items:
+      - title: Instabox
+        icon: https://instabox.sh/assets/7dee878489bd59ea/landing/logo.svg
+        url: https://instabox.sh/
+        target: newtab
+    icon: fas fa-server
+  - name: Github项目
+    icon: si-github
+    items:
+      - title: CF探针
+        icon: si-github
+        url: https://github.com/huilang-me/CF-Server-Monitor
 pages: []
